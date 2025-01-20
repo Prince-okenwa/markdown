@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Documentation Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            line-height: 60px;
+        }
+        nav ul li {
+            float: left;
+            display: inline;
+            padding: 0 20px;
+        }
+        nav ul li a:hover {
+            background: #e8491d;
+            color: #ffffff;
+            padding: 10px;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .markdown-body {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Markdown Documentation</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#docs">Docs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="docs">
+            <div class="markdown-body">
+                <!-- Markdown Content Goes Here -->
+                <h2>Welcome to the Documentation</h2>
+                <p>This documentation is written in Markdown and rendered for the web. Markdown is a lightweight markup language with plain-text formatting syntax.</p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Easy to write and read</li>
+                    <li>Supports headings, lists, and code blocks</li>
+                    <li>Renders beautifully on the web</li>
+                </ul>
+                <h3>Usage</h3>
+                <pre><code># This is a Markdown Heading
+* This is a list item
+`This is inline code`
+```javascript
+console.log('Hello, world!');
+```
+</code></pre>
+                <h2>Tutorial Documentation</h2>
+                <h3>Introduction</h3>
+                <p>Welcome to the tutorial documentation! This guide will walk you through the steps needed to effectively use our Markdown-based documentation website.</p>
+                <h3>Table of Contents</h3>
+                <ul>
+                    <li><a href="#getting-started">Getting Started</a></li>
+                    <li><a href="#markdown-basics">Markdown Basics</a></li>
+                    <li><a href="#advanced-features">Advanced Features</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#contact-support">Contact Support</a></li>
+                </ul>
+                <h3 id="getting-started">Getting Started</h3>
+                <p>To begin using the Markdown documentation website:
+                <ol>
+                    <li>Navigate to the homepage.</li>
+                    <li>Use the navigation bar to explore different sections.</li>
+                    <li>Start with the "Docs" section for detailed information.</li>
+                </ol>
+                </p>
+                <h3 id="markdown-basics">Markdown Basics</h3>
+                <p>Markdown is a lightweight markup language that is easy to write and read. Here are some basics:</p>
+                <h4>Headings</h4>
+                <pre><code># Heading 1
+## Heading 2
+### Heading 3
+</code></pre>
+                <h4>Lists</h4>
+                <pre><code>- Item 1
+- Item 2
+
+1. First item
+2. Second item
+</code></pre>
+                <h4>Code Blocks</h4>
+                <pre><code>```javascript
+console.log('Hello, world!');
+```
+</code></pre>
+                <h3 id="advanced-features">Advanced Features</h3>
+                <p>The website supports various advanced features such as:
+                <ul>
+                    <li>Syntax highlighting for multiple programming languages.</li>
+                    <li>Embedded images and links.</li>
+                    <li>Tables and blockquotes.</li>
+                </ul>
+                </p>
+                <h3 id="faqs">FAQs</h3>
+                <p><strong>Q: How do I navigate the website?</strong><br>A: Use the navigation bar at the top to switch between sections.</p>
+                <p><strong>Q: Can I contribute to the documentation?</strong><br>A: Yes, contributions are welcome! Please contact support for more details.</p>
+                <h3 id="contact-support">Contact Support</h3>
+                <p>If you have any questions or need further assistance, feel free to contact us:
+                <ul>
+                    <li>Email: support@example.com</li>
+                    <li>Phone: (123) 456-7890</li>
+                </ul>
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Markdown Documentation Website &copy; 2025</p>
+    </footer>
+</body>
+</html>
